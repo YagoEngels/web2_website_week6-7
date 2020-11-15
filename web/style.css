@@ -1,0 +1,103 @@
+.body header , .body nav , .body article{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-color: #000000;
+}
+
+nav ul, h1{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body{
+    background-color: #EEE;
+    font-family : 'Lucida Console', monospace;
+    font-size: 100%;
+    line-height: 1.8em;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    background-image: url(worlds2.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1{
+      margin: 10%;
+      font-size: 300%;
+      color: #F7FEFF;
+  }
+
+  h2{
+      margin: 10%;
+      font-size: 275%;
+      color: #F7FEFF;
+  }
+
+  li a {
+    font-size: 175%;
+    color: #83792A;
+    text-decoration: none;    
+  }
+
+  .kleur{
+    color:#F7FEFF;
+}
+
+article h2 , article p{
+    font-size: 150%;
+
+}
+
+.formulier{
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #89DEF9;
+}
+
+article{
+    margin: 50px;
+}
+
+.tabel {
+    width: 90%;
+    margin: 5%;
+}
+
+table, th, td {
+    border: 1px solid #83792A;
+    color: #89DEF9;
+  }
+
+th,td {
+    text-align: center;
+}
+
+p , .find ,a{
+    color: #89DEF9;
+}
+
+.find {
+    margin: 25px;
+}
+
+input,label{
+    margin: 2%;
+  }
